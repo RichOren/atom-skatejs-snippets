@@ -1,0 +1,40 @@
+######################
+## atom-skatejs-snippets ##
+######################
+
+# Github Repo : https://github.com/RichOren/atom-skatejs-snippets
+
+'.source.js.jsx':
+
+#######################
+# Import Skatejs and VDom
+#######################
+
+  "Skate: import Component, prop, vdom, emit":
+    prefix: "si"
+    body: """
+    import { Component, prop, vdom, emit } from 'skatejs';
+
+    ${1}
+    """
+
+#######################
+# Import Classnames
+#######################
+
+  "Classnames: import Classnames":
+    prefix: "ci"
+    body: """
+    import classNames from 'classnames';
+
+    ${1}
+    """
+########################
+# Creating new Symbol
+#######################
+
+  "ES6: Symbol":
+    prefix: "sc"
+    body: """
+      const onTrueClick = Symbol('${1:NewSymbol}');
+    """

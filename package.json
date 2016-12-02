@@ -1,0 +1,27 @@
+{
+  "name": "atom-skatejs-snippets",
+  "version": "0.0.1",
+  "description": "skatejs ES6 snippets for Atom",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichOren/atom-skatejs-snippets.git"
+  },
+  "keywords": [
+    "atom",
+    "skatejs",
+    "snippets",
+    "ES6",
+    "webcomponents",
+    "shadowDom"
+  ],
+  "author": "Richard Oren",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/RichOren/atom-skatejs-snippets/issues"
+  },
+  "homepage": "https://github.com/RichOren/atom-skatejs-snippets#readme"
+}
